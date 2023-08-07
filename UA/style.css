@@ -90,11 +90,14 @@ a{
     display: flex;
     background-image: url(./img/Group_48_1.jpg);
     background-size: cover;
-    padding-bottom: 179px;
+    padding: 180px 0;
+    justify-content: space-around;
+    align-items: center;
 } 
 .text-header-all{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+
 }
 .text-header-navi{
     width: 298px;
@@ -113,7 +116,9 @@ a{
     /* flex-shrink: 0; */
 }
 .spear{
-    /* padding-left: 257px; */
+    display: flex;
+    width: 152px;
+    height: 40px;
 }
 .text-header-ua{
     width: 376px;
@@ -127,8 +132,7 @@ a{
     line-height: normal;
 }
 .jointoclan{
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex; */
     /* margin-top: 42px;
     margin-left: 204px; */
     border-radius: 45px 0px;
@@ -141,7 +145,7 @@ a{
 .text-clan{
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 10px;
     color: #26C7EA;
     text-align: center;
     font-family: HeadlandOne;
@@ -149,4 +153,16 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    height: 30px;
+}
+.socials img:nth-child(1){
+    margin-bottom: 24px;
+}
+.socials img:nth-child(2){
+    margin-bottom: 27px;
 }
