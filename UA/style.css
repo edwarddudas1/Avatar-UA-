@@ -102,18 +102,12 @@ a{
 .text-header-navi{
     width: 298px;
     height: 96px;
-    /* flex-direction: column; */
-    /* padding-top: 180px;
-    padding-left: 204px; */
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* width: 298px;
-    height: 96px; */
-    /* flex-shrink: 0; */
 }
 .spear{
     display: flex;
@@ -123,7 +117,6 @@ a{
 .text-header-ua{
     width: 376px;
     height: 123px;
-    /* padding-left: 204px; */
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -132,9 +125,6 @@ a{
     line-height: normal;
 }
 .jointoclan{
-    /* display: flex; */
-    /* margin-top: 42px;
-    margin-left: 204px; */
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;
