@@ -159,28 +159,12 @@ a{
 }
 
 /* TITLE-TRAILER */
-
-.title-trailer{
-    display: flex;
-    padding-top: 75px;
-    justify-content: center;
+.title-text-all{
+    width: auto;
 }
-.title{
-    display: flex;
-    flex-direction: column;
-}
-
-.title h1:nth-child(1){
-    color: #0A3853;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.title h1:nth-child(2){
-    padding-top: 4px;
+.title h2{
+    /* padding-top: 75px; */
+    margin: 0 auto;
     color: #0A3853;
     text-align: justify;
     font-family: Inter;
@@ -191,6 +175,7 @@ a{
 }
 .hero-name{
     display: flex;
+    margin: 0 auto;
     align-items: center;
     color: #000;
     text-align: center;
@@ -200,14 +185,19 @@ a{
     font-weight: 400;
     line-height: normal;
 }
+.bird{
+    margin: 0 auto;
+} 
 .trailer{
     display: flex;
     justify-content: center;
-    margin: 356px 610px;
     background-image: url(./img/Rectangle\ 10.png);
     background-size: cover;
+    padding: 330px 0;
 }
 .border-trailer-text{
+    display: flex;
+    justify-content: center;
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;  
