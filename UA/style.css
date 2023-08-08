@@ -160,11 +160,11 @@ a{
 
 /* TITLE-TRAILER */
 .title-text-all{
-    width: auto;
+    /* width: 1440px; */
 }
 .title h2{
     /* padding-top: 75px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: #0A3853;
     text-align: justify;
     font-family: Inter;
@@ -175,7 +175,7 @@ a{
 }
 .hero-name{
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     align-items: center;
     color: #000;
     text-align: center;
@@ -186,8 +186,11 @@ a{
     line-height: normal;
 }
 .bird{
-    margin: 0 auto;
+    /* width: 400px; */
 } 
+.bird img{
+    /* margin: 0 auto; */
+}
 .trailer{
     display: flex;
     justify-content: center;
