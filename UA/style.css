@@ -159,14 +159,13 @@ a{
 }
 
 /* TITLE-TRAILER */
-.title-text-all{
-    /* width: 1440px; */
+.title-trailer{
+    text-align: center;
 }
-.title h2{
-    /* padding-top: 75px; */
-    /* margin: 0 auto; */
+.title-trailer h2{
+    margin-top: 75px;
+    margin-bottom: 16px;
     color: #0A3853;
-    text-align: justify;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
@@ -174,9 +173,8 @@ a{
     line-height: normal;
 }
 .hero-name{
-    display: flex;
-    /* margin: 0 auto; */
-    align-items: center;
+    margin: 0 auto; 
+    margin-bottom: 8px;
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -186,10 +184,7 @@ a{
     line-height: normal;
 }
 .bird{
-    /* width: 400px; */
-} 
-.bird img{
-    /* margin: 0 auto; */
+    margin-bottom: 10px;
 }
 .trailer{
     display: flex;
@@ -208,7 +203,7 @@ a{
     height: 80px;
     flex-shrink: 0;  
 }
-.text-trailer{
+.button-trailer{
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -216,6 +211,61 @@ a{
     text-align: justify;
     font-family: HeadlandOne;
     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title-navi{
+    text-align: center;
+}
+.title-navi h2{
+    margin-top: 75px;
+    margin-bottom: 16px;
+    color: #141414;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* LEARNING LANQUAGE NA'VI */
+
+.learning-lanquage-navi{
+    background-image: url(./img/Rectangle\ 20.jpg);
+    background-size: cover;
+}
+.learning-lanquage-navi h3{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.all-card{
+    /* display: flex; */
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    /* width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.70); */
+}
+/* .card{
+    border: 1px solid red;
+} */
+
+
+.title-footer{
+    text-align: center;
+}
+.title-footer h2{
+    margin-top: 75px;
+    margin-bottom: 16px;
+    color: #141414;
+    font-family: Inter;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
