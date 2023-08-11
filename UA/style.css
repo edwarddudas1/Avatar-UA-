@@ -270,3 +270,58 @@ a{
     font-weight: 400;
     line-height: normal;
 }
+
+
+/* FOOTER */
+
+.footer-all{
+    display: flex;
+    background-image: url(./img/Rectangle\ 104.jpg);
+    background-size: cover;
+    opacity:0.7;
+}
+.logo-footer{
+    align-items: center;
+    margin: 76px 0;
+    margin-left: 204px;
+}
+.E-mail p{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vertical-line-footer{
+    display: flex;
+    align-items: center;
+    border: #fff 2px solid;
+    width: 2px;
+    height: 153px;
+}
+
+
+
+
+
+.Cooperation-E-mail{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.copieraid{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
