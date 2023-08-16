@@ -238,7 +238,7 @@ a{
 .learning-lanquage-navi h3{
     display: flex;
     justify-content: center;
-    margin-top: 58px;
+    padding-top: 58px;
     color: #141414;
     text-align: justify;
     font-family: HeadlandOne;
@@ -253,7 +253,7 @@ a{
     grid-template-rows: 240px 240px;
     justify-content: center;
     margin-top: 45px;
-    margin-bottom: 57px;
+    padding-bottom: 57px;
 }
 .card{
     display: grid;
@@ -291,11 +291,14 @@ a{
 
 /* FOOTER */
 
-.footer-all{
-    display: flex;
+footer{
     background-image: url(./img/Rectangle\ 104.jpg);
     background-size: cover;
     opacity:0.7;
+}
+
+.footer-all{
+    display: flex;
 }
 .logo-footer{
     align-items: center;
@@ -318,8 +321,8 @@ a{
 
 .E-mail{
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 16px;
+    padding-top: 80px;
+    padding-bottom: 16px;
 }
 
 .E-mail p{
@@ -331,12 +334,11 @@ a{
     font-weight: 400;
     line-height: normal;
 }
-.gorizontal-line-e-mail{
+
+.E-mail img{
+    width: 269px;
+    height: 2px;  
 }
-
-
-
-
 
 .Cooperation-E-mail{
     display: flex;
@@ -348,12 +350,18 @@ a{
     font-weight: 400;
     line-height: normal;
 }
-.copieraid{
+
+.Cooperation-E-mail img{
+    width: 194px;
+    height: 2px;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 25px;
     color: #FFF;
-    text-align: justify;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; 
 }
