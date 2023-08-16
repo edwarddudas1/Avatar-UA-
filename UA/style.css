@@ -316,6 +316,12 @@ a{
     flex-direction: column;
 }
 
+.E-mail{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
 .E-mail p{
     color: #FFF;
     text-align: justify;
@@ -325,12 +331,15 @@ a{
     font-weight: 400;
     line-height: normal;
 }
+.gorizontal-line-e-mail{
+}
 
 
 
 
 
 .Cooperation-E-mail{
+    display: flex;
     color: #FFF;
     text-align: justify;
     font-family: Inter;
