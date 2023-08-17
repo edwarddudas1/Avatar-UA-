@@ -303,6 +303,7 @@ footer{
 
 .vertical-line-footer{
     display: flex;
+    background-color: rgb(255, 255, 255);
     margin: 35px 80px;
     border: #fff 2px solid;
     width: 2px;

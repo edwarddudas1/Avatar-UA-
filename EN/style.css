@@ -79,8 +79,7 @@ a{
     height: 12px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 4px; 
+    margin: 4px;
 }
 
 .main-description {
@@ -304,6 +303,7 @@ footer{
 
 .vertical-line-footer{
     display: flex;
+    background-color: rgb(255, 255, 255);
     margin: 35px 80px;
     border: #fff 2px solid;
     width: 2px;
