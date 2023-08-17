@@ -1,14 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 header{
     background-image: url(./img/Rectangle\ 104.jpg);
     background-size: cover;
     opacity: 0.8;
     border-bottom: #FFF solid 3px;
-    
 }
 .header-wrapper {
     display: flex;
