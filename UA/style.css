@@ -1,6 +1,4 @@
 body{
-    font-family: Inter;
-    font-size: 20px;
     color: #fff;
 }
 header{
@@ -37,7 +35,8 @@ header{
 nav a {
     /* text-align: center; */
     /* font-family: Inter; */
-    /* font-size: 20px; */
+    font-size: 20px;
+    color: #FFF;
     font-weight: 300;
     margin-right: 38px;
 }
@@ -75,6 +74,7 @@ a{
 .Cooperation-E-mail,
 .copyright{
     font-weight: 400px;
+    font-size: 20px;
 }
 
 header,
@@ -96,6 +96,7 @@ footer{
 }  */
 .switcher a{
     /* text-align: center; */
+    color: #FFF;
     font-family: Hammersmith One;
     font-size: 16px;
     /* font-weight: 400; */
