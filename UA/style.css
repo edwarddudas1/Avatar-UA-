@@ -130,9 +130,9 @@ a{
     flex-shrink: 0;
 }
 .text-clan{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px 30px;
     color: #26C7EA;
     text-align: center;
     font-family: HeadlandOne;
@@ -318,6 +318,7 @@ footer{
 
 .E-mail{
     display: flex;
+    align-items: center;
     padding-top: 80px;
     padding-bottom: 16px;
 }
@@ -335,11 +336,12 @@ footer{
 .E-mail img{
     width: 269px;
     height: 2px;  
-
+    padding: 0 20px; 
 }
 
 .Cooperation-E-mail{
     display: flex;
+    align-items: center;
     color: #FFF;
     text-align: justify;
     font-family: Inter;
@@ -352,6 +354,7 @@ footer{
 .Cooperation-E-mail img{
     width: 194px;
     height: 2px;
+    padding: 0 20px; 
 }
 .copyright{
     text-align: center;
