@@ -19,6 +19,31 @@ header{
 .text-align{
     text-align: center;
 }
+.enter,
+.switcher a,
+.text-header-navi,
+.text-header-ua,
+.text-clan,
+.title-trailer h2,
+.hero-name,
+.button-trailer,
+.title-navi h2,
+.learning-lanquage-navi h3,
+.card p,
+.title-footer h2,
+.E-mail p,
+.Cooperation-E-mail,
+.copyright{
+    font-weight: 400px;
+    font-size: 20px;
+}
+header,
+.main-description,
+.trailer,
+.learning-lanquage-navi,
+footer{
+    background-size: cover;
+}
 .header-wrapper {
     /* display: flex; */
     justify-content: space-evenly;
@@ -47,11 +72,9 @@ nav a:last-child {
 a{
     text-decoration: none;
 }
-.group-enter-switcher{
+/* .group-enter-switcher{
     /* display: flex; */
     /* align-items: center; */
-    
-}
 .enter{
     color: #26C6EA;
     text-align: justify;
