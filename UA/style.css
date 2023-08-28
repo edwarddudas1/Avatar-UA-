@@ -209,9 +209,9 @@ footer{
 /* .title-trailer{
     text-align: center;
 } */
-.title-trailer h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
+.title-trailer-navi h2{
+    padding-top: 75px;
+    padding-bottom: 16px;
     color: #0A3853;
     /* font-family: Inter; */
     font-size: 36px;
@@ -258,14 +258,14 @@ footer{
 /* .title-navi{
     text-align: center;
 } */
-.title-navi h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
+/* .title-navi h2{
+    padding-top: 75px;
+    padding-bottom: 16px;
     color: #141414;
-    /* font-family: Inter; */
+     font-family: Inter; 
     font-size: 36px;
-    /* font-weight: 400; */
-}
+     font-weight: 400; 
+} */
 
 /* LEARNING LANQUAGE NA'VI */
 
@@ -312,9 +312,9 @@ footer{
 /* .title-footer{
     text-align: center;
 } */
-.title-footer h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
+.title-trailer-navi h2{
+    padding-top: 75px;
+    padding-bottom: 16px;
     color: #141414;
     /* font-family: Inter; */
     font-size: 36px;
