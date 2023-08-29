@@ -1,30 +1,64 @@
-
+body{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
 header{
     background-image: url(./img/Rectangle\ 104.jpg);
-    background-size: cover;
     opacity: 0.8;
 }
-.header-wrapper {
+.flex{
     display: flex;
-    justify-content: space-evenly;
+}
+.align-items{
     align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.text-align{
+    text-align: center;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.enter,
+.switcher a,
+.text-header-navi,
+.text-header-ua,
+.text-clan,
+.title-trailer h2,
+.hero-name,
+.button-trailer,
+.title-navi h2,
+.learning-lanquage-navi h3,
+.card p,
+.title-footer h2,
+.E-mail p,
+.Cooperation-E-mail,
+.copyright{
+    font-weight: 400px;
+    font-size: 20px;
+}
+header,
+.main-description,
+.trailer,
+.learning-lanquage-navi,
+footer{
+    background-size: cover;
+}
+.header-wrapper {
+    justify-content: space-evenly;
     padding: 39px 0;
     border-bottom: #FFF solid 3px;
 }
 .header-main{
     color: #94CFFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
     font-weight: 600;
 }
 nav a {
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
     font-size: 20px;
+    color: #FFF;
     font-weight: 300;
-    line-height: normal;
     margin-right: 38px;
 }
 nav a:last-child {
@@ -33,19 +67,35 @@ nav a:last-child {
 a{
     text-decoration: none;
 }
-.group-enter-switcher{
-    display: flex;
-    align-items: center;
-    
-}
 .enter{
     color: #26C6EA;
-    text-align: justify;
     font-family: HeadLandOne;
+}
+.enter,
+.switcher a,
+.text-header-navi,
+.text-header-ua,
+.text-clan,
+.title-trailer h2,
+.hero-name,
+.button-trailer,
+.title-navi h2,
+.learning-lanquage-navi h3,
+.card p,
+.title-footer h2,
+.E-mail p,
+.Cooperation-E-mail,
+.copyright{
+    font-weight: 400px;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+}
+
+header,
+.main-description,
+.trailer,
+.learning-lanquage-navi,
+footer{
+    background-size: cover;
 }
 .group-enter{
     margin-right: 49px;
@@ -54,16 +104,10 @@ a{
     padding: 9px 38px 7.69px;
     background-color: #0B0E66;;
 }
- .switcher{
-    display: flex; 
-} 
 .switcher a{
-    color: #fff;
-    text-align: center;
+    color: #FFF;
     font-family: Hammersmith One;
     font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
 }
 .switch{
     width: 36px;
@@ -77,46 +121,32 @@ a{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    margin: 4px;
+    display: inline-block;
+    margin-right: 17px;
+    margin-top: 4px; 
+    cursor: pointer;
 }
 
 .main-description {
-    display: flex;
     background-image: url(./img/Group_48_1.jpg);
-    background-size: cover;
     padding: 180px 0;
     justify-content: space-around;
-    align-items: center;
 } 
 .text-header-all{
-    display: flex;
     flex-direction: column;
 
 }
 .text-header-navi{
     width: 298px;
     height: 96px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .spear{
-    display: flex;
     width: 152px;
     height: 40px;
 }
 .text-header-ua{
     width: 376px;
     height: 123px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .jointoclan{
     border-radius: 45px 0px;
@@ -124,20 +154,14 @@ a{
     background: #0B0E66;
     width: 260px;
     height: 80px;
-    flex-shrink: 0;
 }
 .text-clan{
-    padding-top: 10px 30px;
+    padding: 10px 30px;
     color: #26C7EA;
-    text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .socials{
-    display: flex;
     flex-direction: column;
     width: 35px;
     height: 30px;
@@ -148,108 +172,56 @@ a{
 .socials img:nth-child(2){
     margin-bottom: 27px;
 }
-
-/* TITLE-TRAILER */
-.title-trailer{
-    text-align: center;
-}
-.title-trailer h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
+.title-trailer-navi h2{
+    padding-top: 75px;
+    padding-bottom: 16px;
     color: #0A3853;
-    font-family: Inter;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .hero-name{
     margin: 0 auto; 
     margin-bottom: 8px;
     color: #000;
-    text-align: center;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .bird{
     margin-bottom: 10px;
 }
 .trailer{
-    display: flex;
-    justify-content: center;
     background-image: url(./img/Rectangle\ 10.png);
-    background-size: cover;
     padding: 330px 0;
 }
 .border-trailer-text{
-    display: flex;
-    justify-content: center;
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;  
     width: 260px;
     height: 80px;
-    flex-shrink: 0;  
 }
 .button-trailer{
-    display: flex;
-    justify-content: center;
     padding-top: 20px;
     color: #26C7EA;
-    text-align: justify;
     font-family: HeadlandOne;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
-.title-navi{
-    text-align: center;
-}
-.title-navi h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
-    color: #141414;
-    font-family: Inter;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-/* LEARNING LANQUAGE NA'VI */
-
 .learning-lanquage-navi{
     background-image: url(./img/Rectangle\ 20.jpg);
-    background-size: cover;
 }
 .learning-lanquage-navi h3{
-    display: flex;
-    justify-content: center;
     padding-top: 58px;
     color: #141414;
-    text-align: justify;
     font-family: HeadlandOne;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .all-card{
     display: grid;
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 240px 240px;
-    justify-content: center;
     margin-top: 45px;
     padding-bottom: 57px;
 }
 .card{
     display: grid;
-    justify-content: center;
-    align-items: center;
     margin-right: 36px;
     margin-bottom: 24px;
     background: rgba(255, 255, 255, 0.70);
@@ -257,48 +229,27 @@ a{
 
 .card p{
     color: #141414;
-    text-align: justify;
     font-family: HeadlandOne;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
 }
-
-.title-footer{
-    text-align: center;
-}
-.title-footer h2{
-    margin-top: 75px;
-    margin-bottom: 16px;
+.title-trailer-navi h2{
+    padding-top: 75px;
+    padding-bottom: 16px;
     color: #141414;
-    font-family: Inter;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
-
-
-/* FOOTER */
 
 footer{
     background-image: url(./img/Rectangle\ 104.jpg);
-    background-size: cover;
     opacity:0.7;
 }
-
-.footer-all{
-    display: flex;
-}
 .logo-footer{
-    align-items: center;
     margin: 76px 0;
     margin-left: 204px;
 }
 
 .vertical-line-footer{
-    display: flex;
     background-color: rgb(255, 255, 255);
     margin: 35px 80px;
     border: #fff 2px solid;
@@ -307,57 +258,24 @@ footer{
 }
 
 .all-e-mail{
-    display: flex;
     flex-direction: column;
 }
 
 .E-mail{
-    display: flex;
-    align-items: center;
     padding-top: 80px;
     padding-bottom: 16px;
 }
-
-.E-mail p{
-    color: #FFF;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .E-mail img{
     width: 269px;
-    height: 2px; 
+    height: 2px;  
     padding: 0 20px; 
 }
-
-.Cooperation-E-mail{
-    display: flex;
-    align-items: center;
-    color: #FFF;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .Cooperation-E-mail img{
     width: 194px;
     height: 2px;
     padding: 0 20px; 
 }
 .copyright{
-    text-align: center;
     padding-bottom: 25px;
-    color: #FFF;
-    font-family: Inter;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
 }
